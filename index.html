@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Character Counter</h1>
+        <p>A simple tool to quickly and easily check exactly how many characters you're string using.</p>
+        <h1 class="count">Count: <span id="count">0</span></h1>
+        <div class="text-box">
+            <span class="textAreaHeading">TextBox :</span>
+        </div>
+        <textarea placeholder="Enter Your Text" class="textarea" id="text" onkeyup="result();"></textarea>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
